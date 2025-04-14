@@ -1,0 +1,25 @@
+# python
+.venv
+
+# clangd
+compile_commands.json
+.cache
+
+# coverage
+*profraw
+*profdata
+
+# IDE file
+.idea
+*.DS_Store
+.zed
+.vs
+.vscode
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.code-workspace
+*.xcodeproj
+*.xcodeproj.xcuserdatad
