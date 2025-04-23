@@ -28,6 +28,7 @@
             "name": "macos",
             "configurePreset": "macos",
             "inherits": [
+                "test-default",
                 "host-macos",
                 "options"
             ]

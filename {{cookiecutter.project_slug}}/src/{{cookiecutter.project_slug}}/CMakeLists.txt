@@ -4,11 +4,6 @@ add_library(
     ${TARGET_NAME}
     ${CMAKE_CURRENT_SOURCE_DIR}/{{cookiecutter.project_slug}}.cpp
 )
-target_link_libraries(
-    ${TARGET_NAME}
-    PUBLIC
-    cmake_git_version_tracking
-)
 
 target_include_directories(
     ${TARGET_NAME}

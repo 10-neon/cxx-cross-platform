@@ -220,6 +220,17 @@
     ],
     "testPresets": [
         {
+            "name": "test-default",
+            "hidden": true,
+            "output": {
+                "outputOnFailure": true
+            },
+            "execution": {
+                "noTestsAction": "error",
+                "stopOnFailure": false
+            }
+        },
+        {
             "name": "host-linux",
             "hidden": true,
             "condition": {

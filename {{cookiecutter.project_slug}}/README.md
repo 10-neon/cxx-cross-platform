@@ -38,3 +38,8 @@ Windows
 choco install llvm uncrustify cppcheck inlcude-what-you-use
 Cross-platform
 pipx install clang-format
+
+
+cmake --preset macos -G Ninja --fresh
+cmake --build --preset macos
+ctest --preset macos
