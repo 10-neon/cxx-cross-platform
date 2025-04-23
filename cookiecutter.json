@@ -2,5 +2,7 @@
     "project_name": "CXX Project Name",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "namespace": "{{cookiecutter.project_slug}}",
-    "author": "Anonymous"
+    "_copy_without_render": [
+        ".github/workflows/cmake-ci.yml"
+    ]
 }
