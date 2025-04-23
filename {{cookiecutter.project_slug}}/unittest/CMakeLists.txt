@@ -1,0 +1,1 @@
+CPMAddPackage("gh:google/googletest#v1.16.0")
